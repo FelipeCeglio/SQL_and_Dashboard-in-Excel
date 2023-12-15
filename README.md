@@ -1,9 +1,12 @@
 KPIs:
- 	1 -> Análise Comercial do Ano de 2013:
+
+	1 -> Análise Comercial do Ano de 2013:
 		a. Total de VENDAS realizadas pela internet x CATEGORIA
 		b. Total de VENDAS realizadas pela internet x MÊS x PEDIDO
 		c. Total de VENDAS realizadas pela internet x CUSTO x PAÍS
 		d. Total de VENDAS realizadas pela internet x SEXO
+
+
 
 TABELAS DE REFERÊNCIAS:
 
@@ -15,8 +18,10 @@ TABELAS DE REFERÊNCIAS:
 	Pais: DimSalesTerritory
 	Sexo: DimCustomer 
 
+
 COLUNAS:
- 	SalesOrderNumber			Tabela: FactInternetSales
+
+	SalesOrderNumber			Tabela: FactInternetSales
 	OrderDate				Tabela: FactInternetSales
 	EnglishProductCategoryName		Tabela: DimProductCategory
 	FirstName + LastName			Tabela: DimCustomer
@@ -25,6 +30,7 @@ COLUNAS:
 	OrderQuantity				Tabela: FactInternetSales
 	TotalProductCost			Tabela: FactInternetSales
 	SalesAmount				Tabela: FactInternetSales
+
 
 
 COMANDO SQL:
